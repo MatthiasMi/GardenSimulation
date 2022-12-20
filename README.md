@@ -13,3 +13,19 @@ Running the code with the following matrix should return 27:
  [0, 0, 7, 0, 4],
  [4, 6, 3, 4, 9],
  [3, 1, 0, 5, 8]]
+
+## Run
+`> python3 rabbit_eats_garden_carrots.py`
+
+
+## Output
+```text
+Rabbit is put in a 4x5-garden A:
+[[5 7 8 6 3]
+ [0 0 7 0 4]
+ [4 6 3 4 9]
+ [3 1 0 5 8]]
+at center C = (1,2), as A[1,2] == 7 is extremal/central.
+
+Before going to sleep, the rabbit ate 27 carrots hopping along: C↑←←.
+```
